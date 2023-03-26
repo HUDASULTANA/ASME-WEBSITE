@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Shantell+Sans:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: linear-gradient(#040228,#0075c7);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{color: white;
+font-size: 2em;
+cursor: default;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.navbar a:hover,
+.navbar a.active{
+    background: #f569e0;
+
+}
+.scroll{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.scroll img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.sec{
+    position: relative;
+    padding: 100px;
+    background: #040228;
+}
+.sec .front{
+    font-size: 3em;
+    color: white;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #df6ce1 , 0 0 20px #df6ce1,0 0 40px #df6ce1 ,0 0 80px #df6ce1 ,0 0 120px #df6ce1 ;
+}
+.sec h2{
+    font-size: 3em;
+    color: white;
+    margin-bottom: 10px;
+}
+.sec h2:nth-child(2){
+    font-size: 2em;
+}
+.sec p{
+    font-size: 2em;
+    color: white;
+    font-weight: 300;
+}
+#asme{
+    height: 160px;
+    width: 450px;
+    margin-left: 845px;
+    margin-top: 200px;
+}
+.scroll::before{
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#040228,transparent);
+    z-index: 1000;}
+    #text{
+         font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Shantell Sans', cursive;;
+        padding-top: 80px;
+        position: absolute;
+        font-size: 2.2em;
+        color:#f3f9f8;
+        text-shadow: 2px 2px 4px rgba(248, 144, 248, 0.2);
+        text-shadow: 0 0 10px #df6ce1 , 0 0 20px #df6ce1,0 0 40px #df6ce1 ,0 0 80px #df6ce1 ,0 0 120px #df6ce1 ;
+    }
+    .sec img{
+        height:500px ;
+        width: 600px;
+    }
+    

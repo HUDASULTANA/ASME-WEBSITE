@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: white;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+.logo{color:#359381;
+font-size: 2em;
+cursor: default;
+margin-right: 270PX;
+}
+.navbar a{
+    color:#359381;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.navbar a:hover,
+.navbar a.active{
+    background:#359381;
+    color: white;
+
+}
+.scroll{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#text{
+    position: absolute;
+    font-size: 5em;
+    color:#003329;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    text-shadow: 0 0 10px #fff , 0 0 20px #fff,0 0 40px #fff ,0 0 80px #fff ,0 0 120px #fff ;
+}
+.scroll img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.sec{
+    position: relative;
+    padding: 100px;
+    background:#003329;
+}
+.sec h2{
+    font-size: 3em;
+    color: white;
+    margin-bottom: 10px;
+}
+.sec h2:nth-child(2){
+    font-size: 2em;
+}
+.sec p{
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+}
+

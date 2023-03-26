@@ -1,0 +1,80 @@
+body{
+    font-family: sans-serif;
+    background: rgb(72, 6, 81);
+}
+header{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 10000;
+}
+header .logo{
+    color:white;
+    font-weight:700;
+    text-decoration: none;
+    font-weight: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{ 
+    
+    list-style: none;
+    margin-left:20px;
+}
+header ul li .contact{ 
+    margin-right: 100px;
+    list-style: none;
+    margin-left:20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding:6px 15px;
+    color:rgb(252, 252, 252);
+    border-radius: 20px;
+}
+header ul li a:hover 
+{
+    background: white;
+    color: rgb(234, 93, 229);
+}
+h1{font-family:'IBM Plex Sans', sans-serif;
+    color: #fff;
+    font-size:1.5cm; 
+    padding:20px;
+    text-shadow: 0 0 10px #f76cdf , 0 0 20px #f76cdf ,0 0 40px #f76cdf ,0 0 80px #f76cdf ,0 0 120px #f76cdf;
+    text-align:center;
+   
+
+}
+.gallery{
+    margin:10px 50px;
+}
+.gallery img{
+    width: 300px;
+    height:250px;
+    padding:5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+
+}
+.logo{
+    height: 50px;
+    width: 200px;
+}
